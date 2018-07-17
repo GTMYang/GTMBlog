@@ -13,12 +13,15 @@
 
 
 ### 对象存储
-##### 文件类型
+#### 文件类型
 blob: 字符串文件
+
 tree：目录文件
+
 commit：提交文件
-##### 文件存储
-###### 存储步骤
+
+#### 文件存储
+##### 存储步骤
 1. header 以对象类型为起始内容构造一个文件头，然后添加一个空格，接着是数据内容的长度，最后是一个空字节 (null byte)
 example: 
 ```ruby
@@ -56,21 +59,31 @@ example:
 ```
 所有的 Git 对象都以这种方式存储，惟一的区别是类型不同 ── 除了字符串 blob，文件头起始内容还可以是 commit 或 tree 。不过虽然 blob 几乎可以是任意内容，commit 和 tree 的数据却是有固定格式的。
 
-###### commit文件格式
-<文件类型> <文件路径>
+##### commit文件格式
+<当前文件类型> <当前文件路径>
+
+parent <前一个commit文件的路径>
+
 author <作者> <作者邮箱> <时间戳>
+
 committer <提交者> <提交者者邮箱> <时间戳>
 
+
 <提交说明注释>
+
 example:
 ```ruby
-tree d8329fc1cc938780ffdd9f94e0d364e0ea74f579
-author Scott Chacon <schacon@gmail.com> 1243040974 -0700
-committer Scott Chacon <schacon@gmail.com> 1243040974 -0700
+tree e562d474522fc61bba990332790d847b2d350720
+parent e5d491cb9ca52560355b532f9c06cdc5f245eba3
+author GTMYang <289135816@qq.com> 1531797414 +0800
+committer GTMYang <289135816@qq.com> 1531797414 +0800
 
 first commit
 ```
-###### tree文件格式
+
+**可以看出来commit文件是一个链表的数据结构。**
+
+##### tree文件格式
 
 example:
 ```ruby
@@ -79,7 +92,7 @@ example:
 100644 blob 1f7a7a472abf3dd9643fd615f6da379c4acb3e3a      test.txt
 ```
 
-
+[参考文档](https://git-scm.com/book/zh/v1/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86)
 
 
 
