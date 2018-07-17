@@ -102,4 +102,5 @@ Git 时不时地将这些对象打包至一个叫 packfile 的二进制文件以
 **打包后只有最新版本的保存文件全部内容，前面的版本只存储差异信息。**
 
 
+[Git 分支 - 何谓分支](https://git-scm.com/book/zh/v1/Git-%E5%88%86%E6%94%AF-%E4%BD%95%E8%B0%93%E5%88%86%E6%94%AF)
 [参考文档](https://git-scm.com/book/zh/v1/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86)
