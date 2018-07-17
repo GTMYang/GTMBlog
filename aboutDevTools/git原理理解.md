@@ -21,9 +21,10 @@ tree：目录文件
 commit：提交文件
 
 #### 文件存储
+
 ##### 存储步骤
 1. header 以对象类型为起始内容构造一个文件头，然后添加一个空格，接着是数据内容的长度，最后是一个空字节 (null byte)
-example: 
+example:
 ```ruby
 >> header = "blob #{content.length}\0"
 => "blob 16\000"
@@ -38,6 +39,7 @@ example:
 >> sha1 = Digest::SHA1.hexdigest(store)
 => "bd9dbf5aae1a3862dd1526723246b20206e5fc37""
 ```
+
 3. Git 用 zlib 对数据内容进行压缩，在 Ruby 中可以用 zlib 库来实现。首先需要导入该库，然后用 Zlib::Deflate.deflate() 对数据进行压缩
 ```ruby
 >> require 'zlib'
@@ -92,7 +94,12 @@ example:
 100644 blob 1f7a7a472abf3dd9643fd615f6da379c4acb3e3a      test.txt
 ```
 
+### Git 对象打包
+git中对每个文件的任何细微的修改都会产生一个新的文件（Git 往磁盘保存对象时默认使用的格式叫松散对象格式），如果大文件多次修改会很浪费存储空间。
+
+Git 时不时地将这些对象打包至一个叫 packfile 的二进制文件以节省空间并提高效率。当仓库中有太多的松散对象，或是手工调用 git gc 命令，或推送至远程服务器时，Git 都会这样做。
+
+**打包后只有最新版本的保存文件全部内容，前面的版本只存储差异信息。**
+
+
 [参考文档](https://git-scm.com/book/zh/v1/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86)
-
-
-
