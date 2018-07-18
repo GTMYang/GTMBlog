@@ -83,7 +83,14 @@ committer GTMYang <289135816@qq.com> 1531797414 +0800
 first commit
 ```
 
-**可以看出来commit文件是一个链表的数据结构。**
+<p style="color: #AD5D0F;font-size: 14px;" >
+PS: 可以看出来所有commit文件形成一个链表。<br />
+commit里的tree文件包含了本次提交所涉及的文件的快照索引。
+</p>
+
+![](../Resources/18333fig0301-tn.png)
+
+![](../Resources/18333fig0302-tn.png)
 
 ##### tree文件格式
 
@@ -101,7 +108,58 @@ Git 时不时地将这些对象打包至一个叫 packfile 的二进制文件以
 
 **打包后只有最新版本的保存文件全部内容，前面的版本只存储差异信息。**
 
+### Git 中的分支
+#### 1 分支本质上仅仅是个指向 commit 对象的可变指针
 
-[Git 分支 - 何谓分支](https://git-scm.com/book/zh/v1/Git-%E5%88%86%E6%94%AF-%E4%BD%95%E8%B0%93%E5%88%86%E6%94%AF)
+Git 会使用 master 作为分支的默认名字。在若干次提交后，你其实已经有了一个指向最后一次提交对象的 master 分支，它在每次提交的时候都会自动向前移动。
 
-[参考](https://git-scm.com/book/zh/v1/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86)
+![](../Resources/18333fig0303-tn.png)
+
+#### 2 多个分支
+> 创建分支命令：
+```ruby
+ git branch <branch name>
+```
+
+![](../Resources/18333fig0304-tn.png)
+
+#### 3 当前所在分支
+Git 保存着一个名为 HEAD 的特别指针。HEAD 指向你正在工作中的本地分支的指针
+> 切换分支命令：
+```ruby
+ git checkout <branch name>
+```
+
+![](../Resources/18333fig0305-tn.png)
+
+切换分支后
+
+![](../Resources/18333fig0306-tn.png)
+
+#### 4 在工作分支commit
+
+![](../Resources/18333fig0307-tn.png)
+
+![](../Resources/18333fig0308-tn.png)
+
+![](../Resources/18333fig0309-tn.png)
+
+<p style="color: #AD5D0F;font-size: 14px;" >
+PS: 由于 Git 中的分支实际上仅是一个包含所指对象校验和（40 个字符长度 SHA-1 字串）的文件，所以创建和销毁一个分支就变得非常廉价。说白了，新建一个分支就是向一个文件写入 41 个字节（外加一个换行符）那么简单，当然也就很快了。
+</p>
+
+#### 4 分支合并
+> 命令
+```ruby
+git checkout master // 回到主分支
+git merge <branch name>  // 合并分支
+git branch -d <branch name> // 删除无用分支
+```
+![](../Resources/18333fig0316-tn.png)
+
+> ![](../Resources/18333fig0317-tn.png)
+
+
+[参考：Git 分支 - 何谓分支](https://git-scm.com/book/zh/v1/Git-%E5%88%86%E6%94%AF-%E4%BD%95%E8%B0%93%E5%88%86%E6%94%AF)
+
+[参考：完整参考文档](https://git-scm.com/book/zh/v1/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86)
