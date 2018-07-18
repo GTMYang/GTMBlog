@@ -162,16 +162,57 @@ git branch -d <branch name> // 删除无用分支
 ### Git 常用命令
 ```c
 git init              // 初始化新仓库
-git add <file name>   // 告诉 Git 开始对文件进行跟踪
+
+git add <file name>   // 作用1：告诉 Git 开始对文件进行跟踪
+                      // 作用2：把已跟踪的文件放到暂存区
+                      // 作用3：用于合并时把有冲突的文件标记为已解决状态
+
 git add *.c           // git add 通配符方式
 git add .             // .表示所有文件（此方式会将不需要跟踪的文件也添加，不建议使用）
-git commit -m '提交注释'  //
+
+git reset HEAD <file name>  // 取消暂存文件
+git checkout --<file name>  // 取消文件修改
 
 git clone <仓库路径URL>   // 克隆仓库
 git clone <仓库路径URL> <自定义项目目录名> // 克隆仓库（自定义项目目录名）
 
 git status          // 检查文件状态
 
+git diff            // 查看尚未暂存的文件更新了哪些部分（当前文件和暂存区域快照之间的差异）
+git diff --cached   // 查看已经暂存起来的文件和上次提交时的快照之间的差异
+git diff --staged   // 同 git diff --cached
+
+git commit -m '提交注释'  // 提交到本地库（本地创建commit文件）
+git commit -a -m '提交注释'  // 加-a 选项 Git 就会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 git add 步骤
+
+git rm <file name>  // 移除文件
+git rm --cached <file name> // 除跟踪但不删除文件
+
+git log         // 查看提交历史
+git log -p -2   // -p 选项展开显示每次提交的内容差异，用 -2 则仅显示最近的两次更新
+git log -U1 --word-diff   // 单词层面的对比
+git log --pretty=oneline  // oneline 将每个提交放在一行显示
+
+git remote -v       // 显示对应的克隆地址
+git remote add <shortname> <url>   // 添加一个新的远程仓库
+
+git fetch <remote-name>   // 从远程仓库拉数据
+git push <remote-name> <branch-name>   // 本地仓库中的数据推送到远程仓库。ex: git push origin master
+
+git remote show <remote-name>   // 查看某个远程仓库的详细信息 ex: git remote show origin
+
+git tag     // 列显已有的标签
+git tag -l 'v1.4.2.*'  // 搜索列显已有的标签
+
+git tag -a v1.4 -m 'my version 1.4'  // 创建一个含附注类型的标签
+git tag -a v1.2 9fceb02     // 打标签的时候跟上对应提交对象的校验和（或前几位字符）
+                            // 可以为之前到提交打标签
+                            // 需要先用git log --pretty=oneline 命令查看之前打提交记录
+git push origin <tagname>   // 把标签推送到远端服务器上
+git push origin --tags      // 一次推送所有本地新增的标签到远端服务器上
+
+git tag -d <tag name>       // 删除一个本地tag
+git push origin :refs/tags/<tag name>  // 删除一个远程tag
 
 ```
 
