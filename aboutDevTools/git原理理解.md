@@ -159,6 +159,22 @@ git branch -d <branch name> // 删除无用分支
 
 > ![](../Resources/18333fig0317-tn.png)
 
+### Git 常用命令
+```c
+git init              // 初始化新仓库
+git add <file name>   // 告诉 Git 开始对文件进行跟踪
+git add *.c           // git add 通配符方式
+git add .             // .表示所有文件（此方式会将不需要跟踪的文件也添加，不建议使用）
+git commit -m '提交注释'  //
+
+git clone <仓库路径URL>   // 克隆仓库
+git clone <仓库路径URL> <自定义项目目录名> // 克隆仓库（自定义项目目录名）
+
+git status          // 检查文件状态
+
+
+```
+
 
 [参考：Git 分支 - 何谓分支](https://git-scm.com/book/zh/v1/Git-%E5%88%86%E6%94%AF-%E4%BD%95%E8%B0%93%E5%88%86%E6%94%AF)
 
