@@ -7,7 +7,6 @@
 //
 
 #include <iostream>
-
 using namespace std;
 
 template <typename T>
@@ -19,7 +18,7 @@ public:
 template<> int testClass<int>::_data = 1;
 template<> int testClass<char>::_data = 2;
 
-int main() {
+void main1() {
     cout << testClass<int>::_data << endl;
     cout << testClass<char>::_data << endl;
     

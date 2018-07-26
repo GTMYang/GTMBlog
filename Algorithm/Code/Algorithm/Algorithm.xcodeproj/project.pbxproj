@@ -7,9 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261A98E22108039B00BA5928 /* 1connfig5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98E12108039B00BA5928 /* 1connfig5.cpp */; };
+		261A98E42108069C00BA5928 /* 1connfig6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98E32108069C00BA5928 /* 1connfig6.cpp */; };
+		261A98E6210809C400BA5928 /* 1connfig8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98E5210809C400BA5928 /* 1connfig8.cpp */; };
+		261A98E821080F8100BA5928 /* 1connfig10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98E721080F8100BA5928 /* 1connfig10.cpp */; };
+		261A98EA2108119300BA5928 /* 1connfig11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98E92108119300BA5928 /* 1connfig11.cpp */; };
+		261A98EC210818D600BA5928 /* icnfig-null-template-arguments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98EB210818D600BA5928 /* icnfig-null-template-arguments.cpp */; };
+		261A98EE21081DB000BA5928 /* 1config-temp-object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98ED21081DB000BA5928 /* 1config-temp-object.cpp */; };
 		2696F756210178B3009127A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2696F755210178B3009127A8 /* main.cpp */; };
 		2699B45B21057D5E0061DDF1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2699B45A21057D5E0061DDF1 /* libstdc++.tbd */; };
 		2699B45D21057DBC0061DDF1 /* 1connfig3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2699B45C21057DBC0061DDF1 /* 1connfig3.cpp */; };
+		26B1D1C32109559200CB795D /* 1config-inclass-init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1C22109559200CB795D /* 1config-inclass-init.cpp */; };
+		26B1D1C52109582200CB795D /* 1config-operator-overloading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1C42109582200CB795D /* 1config-operator-overloading.cpp */; };
+		26B1D1C72109639400CB795D /* 1qsort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1C62109639400CB795D /* 1qsort.cpp */; };
+		26B1D1C9210965ED00CB795D /* 1functor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1C8210965ED00CB795D /* 1functor.cpp */; };
+		26B1D1D721098EA900CB795D /* jjallocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1D521098EA900CB795D /* jjallocator.cpp */; };
+		26B1D1DA2109A13D00CB795D /* stl_construct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1D82109A13D00CB795D /* stl_construct.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +38,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		261A98E12108039B00BA5928 /* 1connfig5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig5.cpp; sourceTree = "<group>"; };
+		261A98E32108069C00BA5928 /* 1connfig6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig6.cpp; sourceTree = "<group>"; };
+		261A98E5210809C400BA5928 /* 1connfig8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig8.cpp; sourceTree = "<group>"; };
+		261A98E721080F8100BA5928 /* 1connfig10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig10.cpp; sourceTree = "<group>"; };
+		261A98E92108119300BA5928 /* 1connfig11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig11.cpp; sourceTree = "<group>"; };
+		261A98EB210818D600BA5928 /* icnfig-null-template-arguments.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "icnfig-null-template-arguments.cpp"; sourceTree = "<group>"; };
+		261A98ED21081DB000BA5928 /* 1config-temp-object.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1config-temp-object.cpp"; sourceTree = "<group>"; };
 		2696F752210178B3009127A8 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		2696F755210178B3009127A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2699B45A21057D5E0061DDF1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		2699B45C21057DBC0061DDF1 /* 1connfig3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig3.cpp; sourceTree = "<group>"; };
+		26B1D1C22109559200CB795D /* 1config-inclass-init.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1config-inclass-init.cpp"; sourceTree = "<group>"; };
+		26B1D1C42109582200CB795D /* 1config-operator-overloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1config-operator-overloading.cpp"; sourceTree = "<group>"; };
+		26B1D1C62109639400CB795D /* 1qsort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1qsort.cpp; sourceTree = "<group>"; };
+		26B1D1C8210965ED00CB795D /* 1functor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1functor.cpp; sourceTree = "<group>"; };
+		26B1D1D521098EA900CB795D /* jjallocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jjallocator.cpp; sourceTree = "<group>"; };
+		26B1D1D621098EA900CB795D /* jjallocator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = jjallocator.hpp; sourceTree = "<group>"; };
+		26B1D1D82109A13D00CB795D /* stl_construct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stl_construct.cpp; sourceTree = "<group>"; };
+		26B1D1D92109A13D00CB795D /* stl_construct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stl_construct.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +91,7 @@
 		2696F754210178B3009127A8 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				2696F755210178B3009127A8 /* main.cpp */,
-				2699B45C21057DBC0061DDF1 /* 1connfig3.cpp */,
+				26B1D1CB2109690500CB795D /* STL */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -75,6 +102,94 @@
 				2699B45A21057D5E0061DDF1 /* libstdc++.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26B1D1CA210968EB00CB795D /* chapter_1 */ = {
+			isa = PBXGroup;
+			children = (
+				261A98E12108039B00BA5928 /* 1connfig5.cpp */,
+				2696F755210178B3009127A8 /* main.cpp */,
+				2699B45C21057DBC0061DDF1 /* 1connfig3.cpp */,
+				261A98E32108069C00BA5928 /* 1connfig6.cpp */,
+				261A98E5210809C400BA5928 /* 1connfig8.cpp */,
+				261A98E721080F8100BA5928 /* 1connfig10.cpp */,
+				261A98E92108119300BA5928 /* 1connfig11.cpp */,
+				261A98EB210818D600BA5928 /* icnfig-null-template-arguments.cpp */,
+				261A98ED21081DB000BA5928 /* 1config-temp-object.cpp */,
+				26B1D1C22109559200CB795D /* 1config-inclass-init.cpp */,
+				26B1D1C42109582200CB795D /* 1config-operator-overloading.cpp */,
+				26B1D1C62109639400CB795D /* 1qsort.cpp */,
+				26B1D1C8210965ED00CB795D /* 1functor.cpp */,
+			);
+			path = chapter_1;
+			sourceTree = "<group>";
+		};
+		26B1D1CB2109690500CB795D /* STL */ = {
+			isa = PBXGroup;
+			children = (
+				26B1D1CA210968EB00CB795D /* chapter_1 */,
+				26B1D1CC2109691A00CB795D /* chapter_2 */,
+				26B1D1CD2109692400CB795D /* chapter_3 */,
+				26B1D1CE2109693400CB795D /* chapter_4 */,
+				26B1D1CF2109693900CB795D /* chapter_5 */,
+				26B1D1D02109693E00CB795D /* chapter_6 */,
+				26B1D1D12109694400CB795D /* chapter_7 */,
+				26B1D1D2210969DE00CB795D /* chapter_8 */,
+			);
+			path = STL;
+			sourceTree = "<group>";
+		};
+		26B1D1CC2109691A00CB795D /* chapter_2 */ = {
+			isa = PBXGroup;
+			children = (
+				26B1D1D621098EA900CB795D /* jjallocator.hpp */,
+				26B1D1D521098EA900CB795D /* jjallocator.cpp */,
+				26B1D1D82109A13D00CB795D /* stl_construct.cpp */,
+				26B1D1D92109A13D00CB795D /* stl_construct.hpp */,
+			);
+			path = chapter_2;
+			sourceTree = "<group>";
+		};
+		26B1D1CD2109692400CB795D /* chapter_3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chapter_3;
+			sourceTree = "<group>";
+		};
+		26B1D1CE2109693400CB795D /* chapter_4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chapter_4;
+			sourceTree = "<group>";
+		};
+		26B1D1CF2109693900CB795D /* chapter_5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chapter_5;
+			sourceTree = "<group>";
+		};
+		26B1D1D02109693E00CB795D /* chapter_6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chapter_6;
+			sourceTree = "<group>";
+		};
+		26B1D1D12109694400CB795D /* chapter_7 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chapter_7;
+			sourceTree = "<group>";
+		};
+		26B1D1D2210969DE00CB795D /* chapter_8 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chapter_8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +248,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B1D1C52109582200CB795D /* 1config-operator-overloading.cpp in Sources */,
+				26B1D1C72109639400CB795D /* 1qsort.cpp in Sources */,
 				2699B45D21057DBC0061DDF1 /* 1connfig3.cpp in Sources */,
+				261A98E42108069C00BA5928 /* 1connfig6.cpp in Sources */,
+				261A98E22108039B00BA5928 /* 1connfig5.cpp in Sources */,
+				261A98EC210818D600BA5928 /* icnfig-null-template-arguments.cpp in Sources */,
+				261A98EE21081DB000BA5928 /* 1config-temp-object.cpp in Sources */,
+				26B1D1C9210965ED00CB795D /* 1functor.cpp in Sources */,
+				26B1D1D721098EA900CB795D /* jjallocator.cpp in Sources */,
+				26B1D1DA2109A13D00CB795D /* stl_construct.cpp in Sources */,
+				261A98EA2108119300BA5928 /* 1connfig11.cpp in Sources */,
+				261A98E821080F8100BA5928 /* 1connfig10.cpp in Sources */,
+				26B1D1C32109559200CB795D /* 1config-inclass-init.cpp in Sources */,
+				261A98E6210809C400BA5928 /* 1connfig8.cpp in Sources */,
 				2696F756210178B3009127A8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

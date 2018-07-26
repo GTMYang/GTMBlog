@@ -1,5 +1,10 @@
 # git 原理理解
 
+### 概念说明
+概念  | 说明 | 参考链接  
+:-|:- |:-
+SHA-1 | 英语：Secure Hash Algorithm 1，中文名：安全散列算法1 | [百度百科](https://baike.baidu.com/item/SHA-1/1699692?fr=aladdin)
+
 ### 目录及文件介绍
 
 * HEAD   		指向当前分支
@@ -14,7 +19,7 @@
 
 ### 对象存储
 #### 文件类型
-blob: 字符串文件
+blob: 普通文件
 
 tree：目录文件
 
@@ -62,7 +67,7 @@ example:
 所有的 Git 对象都以这种方式存储，惟一的区别是类型不同 ── 除了字符串 blob，文件头起始内容还可以是 commit 或 tree 。不过虽然 blob 几乎可以是任意内容，commit 和 tree 的数据却是有固定格式的。
 
 ##### commit文件格式
-<当前文件类型> <当前文件路径>
+tree <当前提交对应的tree文件路径>
 
 parent <前一个commit文件的路径>
 
