@@ -28,7 +28,7 @@ inline void destroy(T* pointer) {
 
 template <class ForwardIterator>
 inline void destroy(ForwardIterator first, ForwardIterator last) {
-    
+    __destroy(first, last, value_type(first));
 }
 
 

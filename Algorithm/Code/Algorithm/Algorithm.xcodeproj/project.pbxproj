@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26000A6F210B0B1D00AF54B1 /* level_2_alloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26000A6D210B0B1D00AF54B1 /* level_2_alloc.cpp */; };
 		261A98E22108039B00BA5928 /* 1connfig5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98E12108039B00BA5928 /* 1connfig5.cpp */; };
 		261A98E42108069C00BA5928 /* 1connfig6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98E32108069C00BA5928 /* 1connfig6.cpp */; };
 		261A98E6210809C400BA5928 /* 1connfig8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A98E5210809C400BA5928 /* 1connfig8.cpp */; };
@@ -17,12 +18,23 @@
 		2696F756210178B3009127A8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2696F755210178B3009127A8 /* main.cpp */; };
 		2699B45B21057D5E0061DDF1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2699B45A21057D5E0061DDF1 /* libstdc++.tbd */; };
 		2699B45D21057DBC0061DDF1 /* 1connfig3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2699B45C21057DBC0061DDF1 /* 1connfig3.cpp */; };
+		26A3B02F2112F33000F23E7E /* advance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26A3B02D2112F33000F23E7E /* advance.cpp */; };
+		26A3B0322112FDC700F23E7E /* stl_iterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26A3B0302112FDC700F23E7E /* stl_iterator.cpp */; };
 		26B1D1C32109559200CB795D /* 1config-inclass-init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1C22109559200CB795D /* 1config-inclass-init.cpp */; };
 		26B1D1C52109582200CB795D /* 1config-operator-overloading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1C42109582200CB795D /* 1config-operator-overloading.cpp */; };
 		26B1D1C72109639400CB795D /* 1qsort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1C62109639400CB795D /* 1qsort.cpp */; };
 		26B1D1C9210965ED00CB795D /* 1functor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1C8210965ED00CB795D /* 1functor.cpp */; };
 		26B1D1D721098EA900CB795D /* jjallocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1D521098EA900CB795D /* jjallocator.cpp */; };
 		26B1D1DA2109A13D00CB795D /* stl_construct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1D82109A13D00CB795D /* stl_construct.cpp */; };
+		26B1D1DD2109B4AD00CB795D /* level_1_alloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26B1D1DB2109B4AD00CB795D /* level_1_alloc.cpp */; };
+		26CCBC0D211431E8009F40FC /* stl_vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26CCBC0B211431E8009F40FC /* stl_vector.cpp */; };
+		26CCBC0F211442E4009F40FC /* 4vector_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26CCBC0E211442E4009F40FC /* 4vector_test.cpp */; };
+		26DCB212211185B9004D0856 /* std_uninitialized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DCB210211185B9004D0856 /* std_uninitialized.cpp */; };
+		26DCB2142111978B004D0856 /* 3find.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DCB2132111978B004D0856 /* 3find.cpp */; };
+		26DCB21621119AF3004D0856 /* 3autoptr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DCB21521119AF3004D0856 /* 3autoptr.cpp */; };
+		26DCB21C2111AB93004D0856 /* 3mylist-iter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DCB21A2111AB93004D0856 /* 3mylist-iter.cpp */; };
+		26DCB21F2111ABAD004D0856 /* 3mylist1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26DCB21D2111ABAD004D0856 /* 3mylist1.cpp */; };
+		26E06479211ED3C5004D4903 /* ctl_alloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26E06477211ED3C5004D4903 /* ctl_alloc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +50,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26000A6D210B0B1D00AF54B1 /* level_2_alloc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = level_2_alloc.cpp; sourceTree = "<group>"; };
+		26000A6E210B0B1D00AF54B1 /* level_2_alloc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = level_2_alloc.hpp; sourceTree = "<group>"; };
 		261A98E12108039B00BA5928 /* 1connfig5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig5.cpp; sourceTree = "<group>"; };
 		261A98E32108069C00BA5928 /* 1connfig6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig6.cpp; sourceTree = "<group>"; };
 		261A98E5210809C400BA5928 /* 1connfig8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig8.cpp; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		2696F755210178B3009127A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2699B45A21057D5E0061DDF1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		2699B45C21057DBC0061DDF1 /* 1connfig3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1connfig3.cpp; sourceTree = "<group>"; };
+		26A3B02D2112F33000F23E7E /* advance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = advance.cpp; sourceTree = "<group>"; };
+		26A3B02E2112F33000F23E7E /* advance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = advance.hpp; sourceTree = "<group>"; };
+		26A3B0302112FDC700F23E7E /* stl_iterator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stl_iterator.cpp; sourceTree = "<group>"; };
+		26A3B0312112FDC700F23E7E /* stl_iterator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stl_iterator.hpp; sourceTree = "<group>"; };
 		26B1D1C22109559200CB795D /* 1config-inclass-init.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1config-inclass-init.cpp"; sourceTree = "<group>"; };
 		26B1D1C42109582200CB795D /* 1config-operator-overloading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1config-operator-overloading.cpp"; sourceTree = "<group>"; };
 		26B1D1C62109639400CB795D /* 1qsort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1qsort.cpp; sourceTree = "<group>"; };
@@ -57,6 +75,22 @@
 		26B1D1D621098EA900CB795D /* jjallocator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = jjallocator.hpp; sourceTree = "<group>"; };
 		26B1D1D82109A13D00CB795D /* stl_construct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stl_construct.cpp; sourceTree = "<group>"; };
 		26B1D1D92109A13D00CB795D /* stl_construct.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stl_construct.hpp; sourceTree = "<group>"; };
+		26B1D1DB2109B4AD00CB795D /* level_1_alloc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = level_1_alloc.cpp; sourceTree = "<group>"; };
+		26B1D1DC2109B4AD00CB795D /* level_1_alloc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = level_1_alloc.hpp; sourceTree = "<group>"; };
+		26CCBC0B211431E8009F40FC /* stl_vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stl_vector.cpp; sourceTree = "<group>"; };
+		26CCBC0C211431E8009F40FC /* stl_vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stl_vector.hpp; sourceTree = "<group>"; };
+		26CCBC0E211442E4009F40FC /* 4vector_test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 4vector_test.cpp; sourceTree = "<group>"; };
+		26DCB210211185B9004D0856 /* std_uninitialized.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = std_uninitialized.cpp; sourceTree = "<group>"; };
+		26DCB211211185B9004D0856 /* std_uninitialized.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = std_uninitialized.hpp; sourceTree = "<group>"; };
+		26DCB2132111978B004D0856 /* 3find.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3find.cpp; sourceTree = "<group>"; };
+		26DCB21521119AF3004D0856 /* 3autoptr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3autoptr.cpp; sourceTree = "<group>"; };
+		26DCB21A2111AB93004D0856 /* 3mylist-iter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "3mylist-iter.cpp"; sourceTree = "<group>"; };
+		26DCB21B2111AB93004D0856 /* 3mylist-iter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "3mylist-iter.hpp"; sourceTree = "<group>"; };
+		26DCB21D2111ABAD004D0856 /* 3mylist1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3mylist1.cpp; sourceTree = "<group>"; };
+		26DCB21E2111ABAD004D0856 /* 3mylist1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 3mylist1.hpp; sourceTree = "<group>"; };
+		26E06477211ED3C5004D4903 /* ctl_alloc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ctl_alloc.cpp; sourceTree = "<group>"; };
+		26E06478211ED3C5004D4903 /* ctl_alloc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ctl_alloc.hpp; sourceTree = "<group>"; };
+		26E0647B211EDF61004D4903 /* ctl_allocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ctl_allocator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +125,7 @@
 		2696F754210178B3009127A8 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				26E06476211ED380004D4903 /* CTL */,
 				26B1D1CB2109690500CB795D /* STL */,
 			);
 			path = Algorithm;
@@ -146,6 +181,12 @@
 				26B1D1D521098EA900CB795D /* jjallocator.cpp */,
 				26B1D1D82109A13D00CB795D /* stl_construct.cpp */,
 				26B1D1D92109A13D00CB795D /* stl_construct.hpp */,
+				26B1D1DB2109B4AD00CB795D /* level_1_alloc.cpp */,
+				26B1D1DC2109B4AD00CB795D /* level_1_alloc.hpp */,
+				26000A6D210B0B1D00AF54B1 /* level_2_alloc.cpp */,
+				26000A6E210B0B1D00AF54B1 /* level_2_alloc.hpp */,
+				26DCB210211185B9004D0856 /* std_uninitialized.cpp */,
+				26DCB211211185B9004D0856 /* std_uninitialized.hpp */,
 			);
 			path = chapter_2;
 			sourceTree = "<group>";
@@ -153,6 +194,16 @@
 		26B1D1CD2109692400CB795D /* chapter_3 */ = {
 			isa = PBXGroup;
 			children = (
+				26DCB2132111978B004D0856 /* 3find.cpp */,
+				26DCB21521119AF3004D0856 /* 3autoptr.cpp */,
+				26DCB21E2111ABAD004D0856 /* 3mylist1.hpp */,
+				26DCB21D2111ABAD004D0856 /* 3mylist1.cpp */,
+				26DCB21B2111AB93004D0856 /* 3mylist-iter.hpp */,
+				26DCB21A2111AB93004D0856 /* 3mylist-iter.cpp */,
+				26A3B02D2112F33000F23E7E /* advance.cpp */,
+				26A3B02E2112F33000F23E7E /* advance.hpp */,
+				26A3B0302112FDC700F23E7E /* stl_iterator.cpp */,
+				26A3B0312112FDC700F23E7E /* stl_iterator.hpp */,
 			);
 			path = chapter_3;
 			sourceTree = "<group>";
@@ -160,6 +211,9 @@
 		26B1D1CE2109693400CB795D /* chapter_4 */ = {
 			isa = PBXGroup;
 			children = (
+				26CCBC0B211431E8009F40FC /* stl_vector.cpp */,
+				26CCBC0C211431E8009F40FC /* stl_vector.hpp */,
+				26CCBC0E211442E4009F40FC /* 4vector_test.cpp */,
 			);
 			path = chapter_4;
 			sourceTree = "<group>";
@@ -190,6 +244,16 @@
 			children = (
 			);
 			path = chapter_8;
+			sourceTree = "<group>";
+		};
+		26E06476211ED380004D4903 /* CTL */ = {
+			isa = PBXGroup;
+			children = (
+				26E06477211ED3C5004D4903 /* ctl_alloc.cpp */,
+				26E06478211ED3C5004D4903 /* ctl_alloc.hpp */,
+				26E0647B211EDF61004D4903 /* ctl_allocator.h */,
+			);
+			path = CTL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,20 +313,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				26B1D1C52109582200CB795D /* 1config-operator-overloading.cpp in Sources */,
+				26CCBC0F211442E4009F40FC /* 4vector_test.cpp in Sources */,
+				26DCB21C2111AB93004D0856 /* 3mylist-iter.cpp in Sources */,
 				26B1D1C72109639400CB795D /* 1qsort.cpp in Sources */,
 				2699B45D21057DBC0061DDF1 /* 1connfig3.cpp in Sources */,
+				26DCB21F2111ABAD004D0856 /* 3mylist1.cpp in Sources */,
+				26DCB2142111978B004D0856 /* 3find.cpp in Sources */,
+				26E06479211ED3C5004D4903 /* ctl_alloc.cpp in Sources */,
 				261A98E42108069C00BA5928 /* 1connfig6.cpp in Sources */,
+				26B1D1DD2109B4AD00CB795D /* level_1_alloc.cpp in Sources */,
+				26A3B02F2112F33000F23E7E /* advance.cpp in Sources */,
 				261A98E22108039B00BA5928 /* 1connfig5.cpp in Sources */,
 				261A98EC210818D600BA5928 /* icnfig-null-template-arguments.cpp in Sources */,
 				261A98EE21081DB000BA5928 /* 1config-temp-object.cpp in Sources */,
 				26B1D1C9210965ED00CB795D /* 1functor.cpp in Sources */,
+				26CCBC0D211431E8009F40FC /* stl_vector.cpp in Sources */,
+				26A3B0322112FDC700F23E7E /* stl_iterator.cpp in Sources */,
 				26B1D1D721098EA900CB795D /* jjallocator.cpp in Sources */,
 				26B1D1DA2109A13D00CB795D /* stl_construct.cpp in Sources */,
 				261A98EA2108119300BA5928 /* 1connfig11.cpp in Sources */,
 				261A98E821080F8100BA5928 /* 1connfig10.cpp in Sources */,
 				26B1D1C32109559200CB795D /* 1config-inclass-init.cpp in Sources */,
+				26000A6F210B0B1D00AF54B1 /* level_2_alloc.cpp in Sources */,
+				26DCB212211185B9004D0856 /* std_uninitialized.cpp in Sources */,
 				261A98E6210809C400BA5928 /* 1connfig8.cpp in Sources */,
 				2696F756210178B3009127A8 /* main.cpp in Sources */,
+				26DCB21621119AF3004D0856 /* 3autoptr.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
